@@ -9,37 +9,23 @@ redirect_from:
 
 {% include base_path %}
 
+You can download my full CV here: [cv.pdf](/files/cv.pdf).
+
+Research Interests
+======
+My research interests are in probability theory and statistical physics, especially critical and near-critical phenomena in planar percolation and random-cluster models.
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Ph.D. in Mathematics, Université de Genève, Sep. 2023-Jun. 2027 (expected)
+  * Advisor: Prof. Hugo Duminil-Copin
+  * Probability and statistical physics
+* "Diplôme de l'ENS", Mathematics, École Normale Supérieure, Sep. 2020-Sep. 2023
+  * Thesis: "Scaling relations in the 2D near-critical planar random cluster model"
+* Master 2 "Mathématiques de l'aléatoire", Université Paris-Saclay, Sep. 2021-Sep. 2022
+  * Thesis: "Geometric properties of some models in Brownian geometry"
+* B.S. in Mathematics and Applied Mathematics, Peking University, Sep. 2017-Sep. 2022
+  * Thesis: "Brownian disk and Brownian sphere"
 
 Publications
 ======
@@ -47,18 +33,8 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
